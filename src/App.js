@@ -1,4 +1,3 @@
-import { Navbar } from './components';
 import './App.css';
 import { Layout, Space, Typography } from 'antd';
 import { Link, Route, Routes } from 'react-router-dom';
@@ -9,7 +8,8 @@ import {
   Homepage,
   News,
   NoMatch,
-} from './pages';
+  Navbar,
+} from './components';
 
 function App() {
   return (
