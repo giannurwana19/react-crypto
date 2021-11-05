@@ -3,6 +3,7 @@ import { Typography, Select, Row, Col, Avatar, Card } from 'antd';
 import moment from 'moment';
 import { useState } from 'react';
 import { useGetCryptosQuery } from '../services/cryptoApi';
+import Loader from './Loader';
 
 const { Title, Text } = Typography;
 const { Option } = Select;
@@ -17,7 +18,7 @@ const News = ({ simplified }) => {
   });
   const { data } = useGetCryptosQuery(100);
 
-  if (!cryptoNews?.value) return 'Loading';
+  if (!cryptoNews?.value) return <Loader />;
 
   return (
     <Row gutter={[24, 24]}>
