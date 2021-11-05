@@ -1,3 +1,13 @@
+# REACT CRYPTO
+
+![image google](/public/crypto.png)
+
+- ReactJS
+- Ant Design
+- Rapid API
+
+Credits: [Javascript Mastery](https://github.com/adrianhajdin)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
