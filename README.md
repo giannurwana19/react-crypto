@@ -1,6 +1,6 @@
 # REACT CRYPTO
 
-![image google](/public/crypto.png)
+![image google](/public/infokripto.png)
 
 - ReactJS
 - Ant Design
